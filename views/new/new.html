@@ -1,0 +1,25 @@
+<ion-view title="new" >
+    <ion-nav-buttons side="right">
+        <button class="button button-clear" ui-sref="tabs.search">
+            <i class="icon ion-ios-search dark"></i>
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content>
+
+
+        <div class="list" ng-repeat="newss in news">
+            <div class="item item-image">
+                <img ng-src="{{newss.imgurl}}" ng-click="go(newss)">
+            </div>
+            <div class="item">
+                <h4>{{newss.name}}</h4>
+                <P>{{newss.times}}</P>
+            </div>
+        </div>
+        <ion-infinite-scroll on-infinite="getNew()"
+                             ng-if="page<total"
+                             immediate-check="false">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

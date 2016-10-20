@@ -1,0 +1,36 @@
+body{font-family:"Microsoft YaHei"}
+*{margin:0;padding: 0;}
+a{text-decoration: none;}
+.row{background-color:#009689;opacity:0.5;margin-top:10px;}
+.box img{width:100%;height:100%;display:block;margin:0 auto}
+.row a{font-size:20px;color:darkslategray;}
+.row i{font-size:20px;}
+.life h2{height:30px;line-height: 30px;font-size:20px}
+.life .pic a{position:relative;display: inline-block;}
+.life .pic p{position: absolute;bottom:20px;left :20px;color:#0a9dc7;font-size:20px;}
+
+.pic{;position:relative;text-align: center}
+.pic .item{width:50%;height:50%;float:left;}
+.pic .item img{width:100%;}
+
+.pic .pic1 img{width:80px;height:80px;border-radius:50%;position:absolute;bottom:-20px;left:45%;}
+ h5{margin-top:20px;margin-left:48%;}
+ .guan{margin-top:20px;margin-left:46%;}
+.guan p{ float: left;margin-left:5px;}
+.kehu{font-size:13px;color:#4d4d4d;margin-top:10px;cursor:pointer}
+.kehu span{float: right;font-size:13px;}
+
+#tour-view .slider-slide{text-align: center;}
+#tour-view .slider-slide img{ width:100%;  height:100%;}
+#tour-view .slider{height:100%;}
+#tour-view{position:relative;}
+#tour-view button{position:absolute;left:40%;bottom:50px;width:100px;height:50px;border:1px solid #000000;
+ color: #4cd964;z-index:10}
+input{margin: 0 auto;border-radius: 5px;}
+dl{margin-top:70px;margin-left:50px;}
+dl dd{float:left;background:#f1f2f3;margin:10px}
+
+.col {float: left;text-align: center;}
+.col img{width:40px;height:40px;border-radius: 50%;}
+
+#home_pic{text-align: center;}

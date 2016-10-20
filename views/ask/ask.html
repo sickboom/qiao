@@ -1,0 +1,20 @@
+<ion-view title="纹身资讯">
+    <ion-content>
+        <div class="list" ng-repeat="mes in message" >
+            <div class="item item-avatar-left">
+                <img ng-src="{{mes.picture}}">
+                <h4>{{mes.name}}</h4>
+            </div>
+            <div class="item">
+                <h3>{{mes.what}}</h3>
+                <i>{{mes.money}}</i>
+                <p>{{mes.where}}</p>
+            </div>
+         </div>
+
+        <ion-infinite-scroll on-infinite="getMessage()"
+                             ng-if="page<total"
+                             immediate-check="false">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,13 @@
+{"messages":[
+  {"picture":"images/index1.jpg","name":"炒鸡蛋","money":"500","what":"熊猫","where":"手臂","data":"new Date()"},
+  {"picture":"images/index2.jpg","name":"西红柿","money":"1500","what":"艺伎","where":"臀部","data":"new Date()"},
+  {"picture":"images/index3.jpg","name":"塔塔莫","money":"5200","what":"机械臂","where":"手臂","data":"new Date()"},
+  {"picture":"images/index5.jpg","name":"倪安雪","money":"3500","what":"卡兰","where":"背部","data":"new Date()"},
+  {"picture":"images/index6.jpg","name":"德莱文","money":"1200","what":"死神","where":"腿部","data":"new Date()"},
+  {"picture":"images/index5.jpg","name":"老王","money":"400","what":"老虎","where":"肚子","data":"new Date()"},
+  {"picture":"images/index7.jpg","name":"男枪","money":"200","what":"柳树","where":"脚踝","data":"new Date()"},
+  {"picture":"images/index1.jpg","name":"飞天螳螂","money":"3000","what":"奥尼尔","where":"脸上","data":"new Date()"},
+  {"picture":"images/index2.jpg","name":"卡萨定","money":"231","what":"艾弗森","where":"头顶","data":"new Date()"}
+
+
+]}
